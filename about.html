@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>About Darrell Seale | Retired International Executive &amp; Global
+      Explorer | Abu Dhabi</title>
+    <meta name="description"
+      content="Learn about Darrell Seale — U.S. Air Force veteran, Lockheed Martin senior executive, Patriot Divers co-founder, scuba instructor, and traveler to 142 countries. Based in Abu Dhabi, UAE." />
+    <link rel="canonical" href="https://darrellseale.netlify.app/about.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title"
+      content="About Darrell Seale | Retired International Executive &amp; Global Explorer" />
+    <meta property="og:description"
+      content="U.S. Air Force veteran, Lockheed Martin senior executive, Patriot Divers co-founder, certified scuba instructor, and traveler to 142 countries." />
+    <meta property="og:image"
+      content="https://darrellseale.netlify.app/images/hero.jpg" />
+    <meta property="og:url"
+      content="https://darrellseale.netlify.app/about.html" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://darrellseale.netlify.app/#person",
+      "name": "Darrell Seale",
+      "jobTitle": "Retired International Business Executive",
+      "url": "https://darrellseale.netlify.app/",
+      "image": "https://darrellseale.netlify.app/images/hero.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Abu Dhabi",
+        "addressCountry": "AE"
+      },
+      "description": "Retired international business executive, U.S. Air Force veteran, nonprofit founder, certified scuba diving instructor, Mensa member, and traveler to 142 countries.",
+      "sameAs": [
+        "https://www.darrellseale.com",
+        "https://www.facebook.com/darrell.seale",
+        "https://www.instagram.com/nomad.darrell/",
+        "https://x.com/DarrellRSeale",
+        "https://www.linkedin.com/in/darrellseale/",
+        "https://www.youtube.com/@DarrellSeale-globaltraveler",
+        "https://www.pinterest.com/darrellseale1/",
+        "https://soundcloud.com/darrell-seale1",
+        "https://bio.site/darrellseale",
+        "https://linktr.ee/darrellseale",
+        "https://issuu.com/t/darrell-seale/darrell-seale",
+        "https://my.archdaily.com/us/@darrell-seale",
+        "https://www.goodreads.com/user/show/198578630-darrell-seale",
+        "https://huggingface.co/darrellseale",
+        "https://www.tumblr.com/darrellseale",
+        "https://bandcamp.com/darrellseale",
+        "https://vimeo.com/darrellseale",
+        "https://wikialpha.co/wiki/User:Darrellseale",
+        "https://www.podbean.com/user-3mdbn2CMoSJx",
+        "https://www.reddit.com/user/darrellseale/",
+        "https://clarity.fm/darrellseale",
+        "https://www.dailymotion.com/darrellseale",
+        "https://mastodon.social/@darrellseale",
+        "https://www.reddit.com/r/darrellrayseale/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://darrellseale.netlify.app/#website",
+      "url": "https://darrellseale.netlify.app/",
+      "name": "Darrell Seale",
+      "publisher": {"@id": "https://darrellseale.netlify.app/#person"}
+    },
+    {
+      "@type": "AboutPage",
+      "url": "https://darrellseale.netlify.app/about.html",
+      "name": "About Darrell Seale",
+      "mainEntity": {"@id": "https://darrellseale.netlify.app/#person"}
+    }
+  ]
+}
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+(function(){
+  const _sb=supabase.createClient('https://aowblircaymwuymcmllh.supabase.co','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFvd2JsaXJjYXltd3V5bWNtbGxoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIzMzExMjcsImV4cCI6MjA2NzkwNzEyN30.qS7jxVwu83zEYMvxNo7C_2dtVrSZ6wYIFiNtoN69UkQ');
+  const _cid='Darrell Seale';
+  async function loadSBLinks(){
+    const[{data:soc},{data:news}]=await Promise.all([
+      _sb.from('social_media').select('*').eq('client_id',_cid),
+      _sb.from('news_links').select('*').eq('client_id',_cid)
+    ]);
+    const render=(ids,data)=>ids.forEach(id=>{
+      const el=document.getElementById(id);
+      if(!el||!data)return;
+      el.innerHTML='';
+      data.forEach(l=>{
+        const a=document.createElement('a');
+        a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';a.title=l.name;
+        a.innerHTML='<img src="'+l.icon+'" alt="'+l.name+'" style="width:30px;height:30px;border-radius:4px"/>';
+        el.appendChild(a);
+      });
+    });
+    render(['sml-soc-about'],soc);
+    render(['sml-news-about'],news);
+  }
+  document.addEventListener('DOMContentLoaded',loadSBLinks);
+})();
+</script>
+  </head>
+  <body>
+
+    <!-- ══ NAV ═══════════════════════════════════════════════════════ -->
+    <nav id="main-nav">
+      <a class="nav-logo" href="/">Darrell<span> Seale</span></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ══ PAGE HERO ═════════════════════════════════════════════════ -->
+    <div class="pg-hero">
+      <p class="eyebrow" style="color:rgba(255,255,255,.55)">Learn More</p>
+      <h1>Darrell Seale</h1>
+      <p class="pg-sub">Scuba Instructor · U.S. Air Force Veteran · Nonprofit
+        Founder · Global Explorer</p>
+    </div>
+
+    <!-- ══ PROFILE CARD ══════════════════════════════════════════════ -->
+    <div class="pc-wrap">
+      <div class="pc">
+        <div class="pc-ph"><img src="images/hero.jpg"
+            alt="Darrell Seale" /></div>
+        <div>
+          <div class="pc-nm">Darrell Seale</div>
+          <div class="pc-rl">Scuba Instructor & Nonprofit Founder </div>
+          <div class="pc-lc">🌎 Abu Dhabi, UAE</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ ABOUT SECTIONS + SIDEBAR ══════════════════════════════════ -->
+    <div class="am-wrap">
+      <div class="am-inner">
+        <div>
+
+          <div class="csec">
+            <p class="cey">Global Reach</p>
+            <h2>142 Countries and Counting</h2>
+            <p>Darrell Seale has visited 142 countries — not as a tourist
+              collecting passport stamps, but as someone who consistently
+              engages with the environments, cultures, and communities he
+              encounters. From the Antarctic Peninsula to Central Asia and
+              across the Pacific, his global experience spans every continent
+              and is documented extensively on his Instagram,
+              @nomad.darrell.</p>
+            <p>This global exposure informs his approach to scuba diving
+              instruction and nonprofit work, particularly in how people adapt,
+              learn, and operate in unfamiliar or high-pressure environments.
+              His article on <a
+                href="https://darrellseale.netlify.app/142-countries-leadership">what
+                global travel reveals about leadership</a>
+              explores these patterns in greater depth.</p>
+          </div>
+
+          <div class="csec">
+            <p class="cey">Military Service</p>
+            <h2>Foundation of Service: The Air Force Years</h2>
+            <p>Darrell Seale began his professional journey with a full United
+              States Air Force ROTC scholarship, commissioning as an officer
+              after graduating cum laude from Oregon State University with a
+              degree in Industrial and Manufacturing Engineering. During his
+              service, he earned multiple commendations, including the
+              Meritorious Service Medal and Air Force Achievement Medals.</p>
+            <p>His military experience also resulted in long-term physical
+              injuries, including shoulder damage requiring joint replacement
+              and other service-related conditions recognized by the Department
+              of Veterans Affairs. This lived experience strengthened his
+              long-standing commitment to veteran support and
+              rehabilitation-focused initiatives. Read more about <a
+                href="https://darrellseale.netlify.app/veteran-aerospace-journey">
+                his transition from military service to aerospace
+                leadership</a>.</p>
+          </div>
+
+          <div class="csec">
+            <p class="cey">Aerospace &amp; Defense</p>
+            <h2>Two Decades in International Program Management</h2>
+            <p>After active duty, Seale spent more than twenty years in the
+              aerospace and defense industry, including senior program
+              management roles at Lockheed Martin. In 2014, he relocated to Abu
+              Dhabi to support international aerospace programs and regional
+              partnerships, where he has remained based since.
+            </p>
+            <p>During his career, he contributed to complex multinational
+              initiatives and served on the Board of Directors of the American
+              Chamber of Commerce Abu Dhabi. His work in this sector developed a
+              disciplined, systems-based approach that continues to influence
+              his scuba instruction and nonprofit leadership. You can follow his
+              ongoing work through <a
+                href="https://www.linkedin.com/in/darrellseale/">his LinkedIn
+                profile.</a></p>
+            <p>He also holds a Master of Science in Engineering Management from
+              the University of Massachusetts-Amherst (1998) and completed
+              advanced program management training through the Defense
+              Acquisition University.</p>
+          </div>
+
+          <div class="csec">
+            <p class="cey">Nonprofit Leadership</p>
+            <h2>Patriot Divers and a Lifetime of Civic Engagement</h2>
+            <p>In 2012, Darrell co-founded Patriot Divers, a 501(c)(3) nonprofit
+              that uses scuba diving as a structured tool for recovery,
+              confidence-building, and reintegration for wounded and disabled
+              veterans. The program is built on the principle that underwater
+              environments reduce physical and psychological barriers, allowing
+              participants to rebuild confidence through controlled, skill-based
+              progression.</p>
+            <p>Seale served as Co-Founder, Vice President, and Instructor,
+              directly contributing to diver training and program development.
+              He also volunteered with Divers for Heroes, supporting similar
+              veteran-focused diving initiatives.</p>
+            <p>His broader civic engagement includes participation in the
+              Special Olympics World Games Abu Dhabi 2019 and board-level
+              involvement with several nonprofit and community organizations.
+              The full scope of his diving-based work is outlined in <a
+                href="https://darrellseale.netlify.app/scuba-diving-patriot-divers">how
+                Patriot
+                Divers uses the underwater world to serve veterans.</a></p>
+          </div>
+
+          <div class="csec">
+            <p class="cey">Scuba &amp; Intellectual Life</p>
+            <h2>Certified Instructor, Mensa Member, Lifelong Student</h2>
+            <p>Since 1999, Darrell Seale has been an active PADI and SDI scuba
+              diving instructor, completing more than 2,500 dives and certifying
+              over 300 students. His instruction emphasizes safety, preparation,
+              and controlled decision-making under variable conditions, shaped
+              by years of real-world diving experience.
+            </p>
+            <p>He continues to teach in Abu Dhabi while contributing to the
+              broader diving community and mentoring new divers.</p>
+            <p>His admission to Mensa reflects a continued focus on structured
+              thinking and intellectual curiosity. Combined with extensive
+              global travel and underwater experience, this informs a lifelong
+              learning approach that spans both physical and cognitive
+              exploration. Follow his travels and reflections on <a href="https://www.youtube.com/@DarrellSeale-globaltraveler">his YouTube
+              channel</a></p>
+          </div>
+
+        </div>
+
+        <aside class="sidebar-facts">
+          <div class="sb-box">
+            <div class="sb-title">Quick Facts</div>
+            <div class="fr"><span class="fl">Countries Visited</span><span
+                class="fv">142</span></div>
+            <div class="fr"><span class="fl">Dives Completed</span><span
+                class="fv">2,500+</span></div>
+            <div class="fr"><span class="fl">Students Certified</span><span
+                class="fv">300+</span></div>
+            <div class="fr"><span class="fl">Based In</span><span class="fv">Abu
+                Dhabi, UAE</span></div>
+            <div class="fr"><span class="fl">Education</span><span
+                class="fv">M.S. Engineering Mgmt, Oregon State B.S. Cum
+                Laude</span></div>
+            <div class="fr"><span class="fl">Memberships</span><span
+                class="fv">Mensa International</span></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- ══ SOCIAL + PRESS ACCORDION ══════════════════════════════════ -->
+    <div class="acc-section" style="background:var(--off)">
+      <div class="acc-wrap">
+        <button class="acc-btn" onclick="tog(this,'s-about')">Follow Darrell
+          Seale on Social Media <span class="chevron">&#8964;</span></button>
+        <div class="acc-body" id="s-about"><div id="sml-soc-about"
+            class="social-media-list"></div></div>
+        <button class="acc-btn" onclick="tog(this,'n-about')">Darrell Seale in
+          the Press <span class="chevron">&#8964;</span></button>
+        <div class="acc-body" id="n-about"><div id="sml-news-about"
+            class="social-media-list"></div></div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Darrell Seale. All rights reserved. &nbsp;|&nbsp; <a
+          href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+    <script>
+function tog(btn,id){
+  const c=document.getElementById(id),open=c.classList.contains('open');
+  document.querySelectorAll('.acc-body').forEach(e=>e.classList.remove('open'));
+  document.querySelectorAll('.acc-btn').forEach(e=>e.classList.remove('open'));
+  if(!open){c.classList.add('open');btn.classList.add('open');}
+}
+</script>
+  </body>
+</html>
